@@ -1,0 +1,18 @@
+
+a:link {
+text-decoration: none;
+}
+
+ul {
+list-style-type:none;
+display: flex;
+}
+
+.header {
+background-color: #02f726;
+height: 30px;
+padding: 0;
+color: gray;
+display: flex;
+
+}
