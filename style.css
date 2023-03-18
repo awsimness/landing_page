@@ -15,7 +15,12 @@ color: white;
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-wrap: wrap;
 font-family:'Courier New', Courier, monospace;
+}
+
+main {
+display: flex;
 }
 
 .logo {
@@ -24,10 +29,43 @@ width: 90px;
 padding-left: 120px;
 }
 
+.hero {
+height: 150px;
+width: 200px;
+}
+
 .links {
 list-style: none;
 font-size: 16px;
 display: flex;
 gap: 26px;
 padding-right: 150px;
+}
+
+.content1 {
+width: 400px;
+display: flex;
+gap: 10px;
+flex-direction: column;
+padding: 120px;
+padding-right: 0;
+}
+
+.big-text {
+font-size: 48px;
+font-weight: 800;
+color: #f9faf8;
+}
+
+.describe {
+font-size: 18px;
+}
+
+button {
+width: 120px;
+height: 35px;
+background-color:  #3882f6;
+border-radius: 8px;
+border:0;
+font-weight: 600;
 }
