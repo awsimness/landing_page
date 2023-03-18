@@ -3,16 +3,24 @@ a:link {
 text-decoration: none;
 }
 
-ul {
-list-style-type:none;
-display: flex;
+html,body {
+margin: 0;
+padding: 0;
 }
 
 .header {
-background-color: #02f726;
-height: 30px;
-padding: 0;
-color: gray;
+background-color: #1f2937;
+color: white;
 display: flex;
+justify-content: space-between;
+align-items: center;
+}
 
+.logo {
+font-size: 20px;
+font-weight: 900;
+}
+
+.links {
+list-style: none;
 }
