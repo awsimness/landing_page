@@ -20,8 +20,12 @@ flex-wrap: wrap;
 font-family:'Courier New', Courier, monospace;
 }
 
+
 .main {
 display: flex;
+gap: 150px;
+background-color: #1f2937;
+flex-wrap: wrap;
 }
 
 .logo {
@@ -33,8 +37,7 @@ padding-left: 120px;
 .hero {
 height: 300px;
 width: 550px;
-padding-left: 150px;
-padding-top: 30px;
+padding-top: 50px;
 }
 
 .links {
@@ -81,9 +84,8 @@ font-size: 36px;
 
 .accolades {
 display: flex;
-gap: 20px;
-padding-left: 250px;
-width: 200px;
+flex-wrap: wrap;
+width: 50px;
 }
 
 .pair {
@@ -92,13 +94,24 @@ flex-direction: column;
 }
 
 .clip {
-width: 200px;
-height: 150px;
+width: 50px;
+height: 30px;
 border-color:#3882f6;
 border-radius: 30px;
 }
 
 .quote {
-    background-color: #e5e7eb;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #e5e7eb;
 padding: 150px;
+font-size: xx-large;
+}
+
+.name {
+font-size: large;
+font-style: italic;
+font-weight: 800;
 }
