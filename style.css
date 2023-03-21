@@ -141,7 +141,8 @@ font-size: large;
 
 .scont {
 background-color: #3882f6;
-margin: 200px;
+color: #e5e7eb;
+margin: 150px;
 padding: 40px;
 border-radius: 10px;
 display: flex;
@@ -151,8 +152,22 @@ gap: 20px;
 
 .divo {
 display: flex;
+gap: 250px;
+}
+
+.conttxt {
+font-size: 25px;
 }
 
 .b2 {
 border: 3px solid #e5e7eb;
+}
+
+.footer {
+background-color: #1f2937;
+color: #f9faf8;
+padding: 25px;
+justify-content: center;
+align-items: center;
+display: flex;
 }
